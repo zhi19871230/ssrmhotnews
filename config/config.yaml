@@ -176,9 +176,9 @@ notification:
   # 注意：同一新闻可能同时出现在关键词匹配区和独立展示区
   standalone_display:
     enabled: true                    # 是否启用独立展示区
-    platforms: ["zhihu", "weibo", "douyin"]                     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
+    platforms: ["zhihu", "weibo", "douyin", "baidu", "toutiao"]                     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
     rss_feeds: []                     # RSS 源 ID 列表（如 ["hacker-news"]）
-    max_items: 20                     # 每个源最多展示条数（0=不限制）
+    max_items: 15                     # 每个源最多展示条数（0=不限制）
 
   # 推送渠道配置
   channels:
